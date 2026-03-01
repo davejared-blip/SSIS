@@ -1,12 +1,14 @@
 Program Code,Program Name,College Code
 BSIT,Bachelor of Science in Information Technology,CCS
 BSCS,Bachelor of Science in Computer Science,CCS
-BSBA,BS Business Administration,CBA
-BSA,BS Accountancy,CBA
-BSE,BS Education,CAS
-BSEE,BS Electrical Engineering,COE
+BSBA,Bachelor of Science in Business Administration,CBA
+BSA,Bachelor of Science in Accountancy,CBA
+BSE,Bachelor of Science in Education,CAS
+BSEE,Bachelor of Science in Electrical Engineering,COE
 BSN,Bachelor of Science in Nursing,CHS
 BSER,Bachelor of Sciin Ergonomics,CE
 BSMB,Bachelor of Science in Micro Biology,CSM
 BSBIO,Bachelor of Science in Biology,CSM
-BST,Bachelor of Science in Transformersoptimusprime,CTI
+BST,Bachelor of Science in Transformers,COT
+BSOP,Bachelor of Science in Optimus Prime,COT
+BSCE,Bachelor of Science in Civil Engineering,COE

@@ -243,6 +243,22 @@ class CollegeManager:
                 for k, v in updated.items():
                     writer.writerow({"College Code": k, "College Name": v})
 
+            # Remove programs under this college
+            programs = self.load_programs()
+            filtered_programs = {
+                k: v for k, v in programs.items()
+                if v["College Code"] != college_code
+            }
+
+            with open(self.program_file, "w", newline="") as csvfile:
+                writer = csv.DictWriter(
+                    csvfile,
+                    fieldnames=["Program Code", "Program Name", "College Code"]
+                )
+                writer.writeheader()
+                for v in filtered_programs.values():
+                    writer.writerow(v)
+
             messagebox.showinfo("Success", "College deleted.")
             win.destroy()
 

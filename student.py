@@ -27,7 +27,7 @@ class StudentForm(tk.Toplevel):
 
         # Define dropdown values
         gender_options = ["Male", "Female", "Other"]
-        year_levels = ["1st Year", "2nd Year", "3rd Year", "4th Year", "4+ years"]
+        year_levels = ["1", "2", "3", "4", "4+"]
 
         # Labels and Entry fields
         fields = ["First Name", "Last Name", "ID Number", "Age"]
