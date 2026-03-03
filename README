@@ -1,0 +1,22 @@
+## SSIS Project
+This project is my submission for our Information Management Subject.
+
+## escription
+- This system manages colleges, programs, and student details using the CSV file as the database.
+- It maintains proper relationships between colleges and programs.
+
+## How to run
+1. Make sure Python is installed
+2. Make sure all the files are within your directory.
+  - main.py
+  - college_manager.py
+  - database.py
+  - student.py
+  - data/folder containing:
+    - colleges.csv
+    - programs.csv
+    - students.csv
+3. Open a terminal in the project folder
+4. Run the command :
+ 
+ python main.py
